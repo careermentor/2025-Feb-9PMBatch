@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      
+      <class name="org.wipro.auto.uo.testcases.SignupScenario_DDF"/>
+      
+      <class name="org.wipro.auto.uo.testcases.SignupScenario"/>
+      <class name="org.wipro.auto.uo.testcases.LoginScenario_DDF"/>
+     <class name="org.wipro.auto.uo.testcases.LoginScenario_test"/>
+      <class name="org.wipro.auto.uo.testcases.LoginScenario"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
